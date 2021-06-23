@@ -29,4 +29,10 @@ class Simple extends ModelEntity
      */
     private $simple;
 
+    /**
+     * @var \DateTime $added
+     * @ORM\Column(type="datetime", nullable=false)
+     */
+    private $createDate = null;
+
 }
