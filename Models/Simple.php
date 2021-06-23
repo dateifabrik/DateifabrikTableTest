@@ -5,6 +5,7 @@ namespace DateifabrikTableTest\Models;
 use Shopware\Components\Model\ModelEntity;
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * @ORM\Entity
  * @ORM\Table(name="dfbk_simple")
